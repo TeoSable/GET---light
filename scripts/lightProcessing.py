@@ -13,7 +13,7 @@ colorRu = ["белый", "красный", "жёлтый", "зелёный", "с
 colorEn = ["white", "red", "yellow", "green", "blue"]
 
 for i in range(5):
-    intensity.append(j.readIntensity(colorEn[i] + "-tungsten.png", colorEn[i] + "-tungsten.png", "Ртутная лампа", colorRu[i] + " лист"))
+    intensity.append(j.readIntensity(colorEn[i] + "-tungsten.png", colorEn[i] + "-tungsten.png", "Лампа накаливания", colorRu[i] + " лист"))
     print(intensity[i + 1])
 
 # Удаляем вектор интенсивностей ртутной лампы, т.к. он больше не понадобится
